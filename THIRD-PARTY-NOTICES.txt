@@ -39,6 +39,8 @@ COMPONENT SUMMARY
  OpenMcdf                               3.1.4         MPL-2.0        https://github.com/ironfede/openmcdf
  UTF.Unknown                            2.6.0         MPL-1.1        https://github.com/CharsetDetector/UTF-unknown
  SQLite (e_sqlite3 native engine)       (bundled)     Public Domain https://www.sqlite.org/copyright.html
+ SheetJS Community Edition (xlsx.js)    0.20.3        Apache-2.0     https://sheetjs.com/
+ mammoth.js (browser build)             1.8.0         BSD-2-Clause   https://github.com/mwilliamson/mammoth.js
 
 ==========================================================================
 1. MIT LICENSE
@@ -175,6 +177,8 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 Applies to:
   - SQLitePCLRaw.core, .bundle_e_sqlite3, .lib.e_sqlite3, .provider.e_sqlite3
     Copyright 2014-2023 SourceGear, LLC
+  - SheetJS Community Edition (xlsx.full.min.js, embedded for the attachment
+    preview feature)   Copyright (C) 2012-present SheetJS LLC
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use
 these files except in compliance with the License. You may obtain a copy of the
@@ -189,6 +193,35 @@ specific language governing permissions and limitations under the License.
 
 The full text of the Apache License, Version 2.0, is available at the URL
 above. No source files of the above components were modified by PST Reader.
+
+==========================================================================
+4a. BSD 2-CLAUSE LICENSE
+==========================================================================
+
+Applies to:
+  - mammoth.js (mammoth.browser.min.js, embedded for the attachment preview
+    feature)   Copyright (c) 2013, Michael Williamson. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
 
 ==========================================================================
 5. MOZILLA PUBLIC LICENSE, VERSION 2.0 (MPL-2.0)
